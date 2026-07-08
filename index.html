@@ -1,1 +1,315 @@
-# 24-The-Complete-Solution
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>24 The Complete Solution</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      color: #0b1b35;
+      background: #ffffff;
+    }
+
+    header {
+      background: #ffffff;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .company-name {
+      font-size: 24px;
+      font-weight: bold;
+      color: #071a36;
+    }
+
+    .company-name span {
+      color: #e31e24;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #071a36;
+      font-weight: bold;
+    }
+
+    .hero {
+      min-height: 550px;
+      background: linear-gradient(135deg, #06162d, #123d70);
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 70px 8%;
+    }
+
+    .hero-content {
+      max-width: 750px;
+    }
+
+    .hero h1 {
+      font-size: 52px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 25px;
+      background: #e31e24;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    section {
+      padding: 70px 8%;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+
+    .about {
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .services {
+      background: #f5f7fa;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+    }
+
+    .service-card {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    .service-card h3 {
+      color: #e31e24;
+      margin-bottom: 15px;
+    }
+
+    .service-card p {
+      line-height: 1.6;
+    }
+
+    .contact {
+      text-align: center;
+      background: #071a36;
+      color: white;
+    }
+
+    .contact p {
+      margin: 15px;
+      font-size: 18px;
+    }
+
+    .whatsapp {
+      display: inline-block;
+      margin-top: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #020b18;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+      }
+
+      nav {
+        margin-top: 15px;
+      }
+
+      nav a {
+        margin: 5px;
+        font-size: 14px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="company-name">
+    <span>24</span> THE COMPLETE SOLUTION
+  </div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+
+<section class="hero" id="home">
+
+  <div class="hero-content">
+
+    <h1>Your Complete Solution, All in One Place</h1>
+
+    <p>
+      24 The Complete Solution provides professional and reliable
+      services across the UAE, India, Qatar and Oman.
+    </p>
+
+    <a class="button" href="#services">
+      Our Services
+    </a>
+
+    <a class="button" href="https://wa.me/971544992443">
+      Contact Us
+    </a>
+
+  </div>
+
+</section>
+
+
+<section id="about">
+
+  <h2 class="section-title">About Us</h2>
+
+  <div class="about">
+
+    <p>
+      24 The Complete Solution is a multi-service company dedicated
+      to providing reliable, professional and convenient solutions
+      for individuals and businesses.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section class="services" id="services">
+
+  <h2 class="section-title">Our Services</h2>
+
+  <div class="service-grid">
+
+    <div class="service-card">
+      <h3>Travel & Tourism</h3>
+      <p>Professional travel, tourism and visa assistance services.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Housemaid Services</h3>
+      <p>Reliable domestic worker and household assistance solutions.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Digital & IT Solutions</h3>
+      <p>Website, digital marketing and technology support services.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Real Estate Assistance</h3>
+      <p>Professional property and real estate assistance services.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Facility Management</h3>
+      <p>Maintenance and facility management solutions.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Job & Career Support</h3>
+      <p>Career guidance, recruitment assistance and job support.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Event Management</h3>
+      <p>Professional event planning and management services.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Rent a Car</h3>
+      <p>Convenient and affordable vehicle rental assistance.</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+  <h2 class="section-title">Contact Us</h2>
+
+  <p>24 The Complete Solution</p>
+
+  <p>Phone & WhatsApp: +971 54 499 2443</p>
+
+  <p>Website: www.24tcsonline.com</p>
+
+  <a
+    class="whatsapp"
+    href="https://wa.me/971544992443"
+    target="_blank"
+  >
+    Chat With Us on WhatsApp
+  </a>
+
+</section>
+
+
+<footer>
+
+  <p>
+    © 2026 24 The Complete Solution. All Rights Reserved.
+  </p>
+
+</footer>
+
+</body>
+</html>
